@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Toodle</string>
+    <string name="logo_name">TOODLE</string>
+    <string name="login_screen">Login Screen</string>
+</resources>
