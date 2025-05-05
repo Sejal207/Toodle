@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3B37A">
+
+    <!-- Top Bar: Back Arrow and Bell -->
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_back"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/ivBell"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_bell"
+      android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Sun Animation (Lottie) -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieSun"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/sun" />
+
+    <!-- Clouds Animation (Lottie) -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieClouds"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:rotationX="1"
+        android:scaleX="20"
+        android:scaleY="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/clouds" />
+
+    <!-- Title and Subtitle with Cloud BG -->
+    <TextView
+        android:id="@+id/tvCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CATEGORIES"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#222"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:layout_marginStart="24dp"
+        app:layout_constraintTop_toBottomOf="@id/lottieClouds"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvReady"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready for the fun?"
+        android:textSize="20sp"
+        android:textColor="#555"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:background="@drawable/bg_cloud"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvCategories"
+        app:layout_constraintStart_toStartOf="@id/tvCategories"/>
+
+    <!-- Search Bar -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/searchBarContainer"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="2dp"
+        app:layout_constraintTop_toBottomOf="@id/tvReady"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_search"
+                android:layout_marginStart="12dp"
+                android:contentDescription="Search Icon"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Shape Monster Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardShapeMonster"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#4B6B3A"
+        app:layout_constraintTop_toBottomOf="@id/searchBarContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tvShapeMonster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SHAPE\nMONSTER"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#222"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"/>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieShapeMonsterIcon"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:rotationX="1"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/shape_monster_icon" />
+
+            <Button
+                android:id="@+id/btnShapeMonster"
+                android:layout_width="180dp"
+                android:layout_height="48dp"
+                android:text="PLAY NOW"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:backgroundTint="#5B4322"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Cards Craze Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardCardsCraze"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#F2C230"
+        app:layout_constraintTop_toBottomOf="@id/cardShapeMonster"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tvCardsCraze"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="CARDS\nCRAZE"
+                android:textColor="#222"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnCardsCraze"
+                android:layout_width="180dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#4B6B3A"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="PLAY NOW"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Mascot Dino Animation -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieMascotDino"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="-24dp"
+        android:layout_marginBottom="-16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomNav"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/mascot_dino" />
+
+
+    <!-- Bottom Navigation Bar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+
+        app:labelVisibilityMode="labeled" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

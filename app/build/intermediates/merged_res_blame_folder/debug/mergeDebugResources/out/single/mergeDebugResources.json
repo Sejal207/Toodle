@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_panda.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\panda.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_sun.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\sun.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_bg_cloud.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\bg_cloud.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_coins.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\coins.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_ic_search.png.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_ic_progress.png.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\ic_progress.png"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_ic_settings.png.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\ic_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\font_baloo_bhaijaan.ttf.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\font\\baloo_bhaijaan.ttf"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_mountains.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\mountains.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_shapesort.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\shapesort.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\layout_activity_profileandprogress.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\layout\\activity_profileandprogress.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_ic_profile.png.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_profile_placeholder.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\profile_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_animal_icon.png.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\animal_icon.png"
+    },
+    {
+        "merged": "com.example.madfinal.app-debug-33:/layout_activity_profileandprogress.xml.flat",
+        "source": "com.example.madfinal.app-main-35:/layout/activity_profileandprogress.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_ic_back.png.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_logo.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\logo.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\layout_activity_homepage.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\layout\\activity_homepage.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_bg_bottom_nav.png.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\bg_bottom_nav.png"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_bg_card_blue.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\bg_card_blue.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_ic_home.png.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\color_bottom_nav_colors.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\color\\bottom_nav_colors.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_shape_monster_icon.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\shape_monster_icon.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_clouds.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\clouds.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_ic_bell.png.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\ic_bell.png"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_birds.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\birds.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_mascot_dino.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\mascot_dino.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_circle_bg.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\circle_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\raw_balloon.json.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\raw\\balloon.json"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-debug-33:\\drawable_bar_chart_bg.xml.flat",
+        "source": "C:\\Users\\maxxm\\.gradle\\daemon\\8.10.2\\com.example.madfinal.app-main-35:\\drawable\\bar_chart_bg.xml"
+    }
+]

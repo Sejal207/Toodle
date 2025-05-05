@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7BA7A"
+    tools:context=".ProfileAndProgressActivity">
+
+    <!-- Top left time and right status bar icons (mocked as TextView for preview) -->
+
+    <!-- Sun Animation (Lottie) -->
+
+    <!-- Clouds Animation (Lottie) -->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieSun"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="24dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/sun" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieClouds"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:rotationX="1"
+        android:scaleX="20"
+        android:scaleY="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/clouds" />
+    <!-- Profile picture -->
+
+    <!-- Profile name -->
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/circle_bg"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_placeholder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/lottieSun" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Devi Rohilla"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#231B0B"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/profileImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Profile subtitle -->
+    <TextView
+        android:id="@+id/profileSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learning enthusiast | Magic warrior"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@id/profileName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Join date -->
+    <TextView
+        android:id="@+id/joinDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joined March 2022"
+        android:textSize="15sp"
+        android:textColor="#231B0B"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@id/profileSubtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Stats cards grid -->
+    <GridLayout
+        android:id="@+id/statsGrid"
+        android:layout_width="197dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="32dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/joinDate">
+
+        <!-- Day Streak Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#F8F3D4"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+                    android:textColor="#6B4A1B"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day Streak"
+                    android:textColor="#6B4A1B"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Total XP Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#F8F3D4"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1200"
+                    android:textColor="#6B4A1B"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total XP"
+                    android:textColor="#6B4A1B"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Newbie Level Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#F8F3D4"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Newbie"
+                    android:textColor="#6B4A1B"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Level"
+                    android:textColor="#6B4A1B"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Gold Top 3 Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#F8F3D4"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gold"
+                    android:textColor="#6B4A1B"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top 3 finishes"
+                    android:textColor="#6B4A1B"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+
+    <!-- XP Progress Title -->
+
+    <TextView
+        android:id="@+id/xpProgressTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
+        android:text="XP PROGRESS"
+        android:textColor="#231B0B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/statsGrid" />
+
+    <TextView
+        android:id="@+id/xpProgressWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Week"
+        android:textSize="16sp"
+        android:textColor="#888"
+        app:layout_constraintTop_toTopOf="@id/xpProgressTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="32dp" />
+
+    <!-- XP Progress Bar Chart (mocked with LinearLayout and Views) -->
+    <LinearLayout
+        android:id="@+id/xpBarChart"
+        android:layout_width="331dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bar_chart_bg"
+        android:orientation="horizontal"
+        android:padding="18dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomNav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xpProgressTitle">
+        <!-- 7 bars, 6 brown, 1 green -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#4B2E13" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#4B2E13" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#4B2E13" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#4B2E13" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#4B2E13" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#3B7A3B" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:background="#4B2E13" />
+    </LinearLayout>
+
+    <!-- Bottom Navigation Bar (Material, matches homepage) -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        app:labelVisibilityMode="labeled" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

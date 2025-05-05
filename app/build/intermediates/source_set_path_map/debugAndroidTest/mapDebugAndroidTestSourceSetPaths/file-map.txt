@@ -1,0 +1,5 @@
+com.example.madfinal.test.app-core-1.6.1-0 C:\Users\maxxm\.gradle\caches\8.10.2\transforms\fcda1aab49258642608baa5bb8c6c24a\transformed\core-1.6.1\res
+com.example.madfinal.test.app-androidTest-1 C:\Users\maxxm\AndroidStudioProjects\madfinal\app\build\generated\res\resValues\androidTest\debug
+com.example.madfinal.test.app-mergeDebugAndroidTestResources-2 C:\Users\maxxm\AndroidStudioProjects\madfinal\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.madfinal.test.app-mergeDebugAndroidTestResources-3 C:\Users\maxxm\AndroidStudioProjects\madfinal\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.madfinal.test.app-debugAndroidTest-4 C:\Users\maxxm\AndroidStudioProjects\madfinal\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
